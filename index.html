@@ -2,21 +2,24 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Games - Senai</title>
-    <link rel="stylesheet" href="../Egames/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Games - Senai</title>
+  <link rel="stylesheet" href="../Egames/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="../Egames/js/jquery.js"></script>
 </head>
 
 <body>
 
-   <div class="container">
+  <div class="container">
     <header class="flex space-between">
       <img class="logo" src="../Egames/img/banner_principal.png">
 
       <div class="flex flex-center ml-1">
-        <input class="search" placeholder="Digite aqui o que você deseja pesquisar. Exemplo: Ração">
+        <input class="search" placeholder="Digite aqui o que você deseja pesquisar. Exemplo: FIFA">
         <img class="lupa " src="../Egames/img/Icones_lupa.png ">
       </div>
 
@@ -39,88 +42,46 @@
         </div>
       </div>
     </header>
-    
+
     <main>
       <nav class="menu-lateral">
         <h2>O que você precisa?</h2>
-        <h3 class="text-roxo">EQUIPAMENTOS</h3>
+        <h3 class="text-roxo">PCs</h3>
         <ul>
-          <li><a href="#">Ração</a></li>
-          <li><a href="#">Ração Seca</a></li>
-          <li><a href="#">Ração Úmida</a></li>
-          <li><a href="#">Ração Medicamentosa</a></li>
+          <li><a href="#">Todos os Jogos</a></li>
+          <li><a href="#">Promoções</a></li>
+          <li><a href="#">Lançamentos</a></li>
+          <li><a href="#">Pré-Vendas</a></li>
+          <li><a href="#">Mais Propulares</a></li>
+          <li><a href="#">Free to Play</a></li>
           <li><a href="#">Ver todos+</a></li>
         </ul>
+       
+        <h3 class="text-roxo">PROMOÇÕES</h3>
         <ul>
-          <li><a href="#">Petiscos</a></li>
-          <li><a href="#">Ossinhos e Petiscos</a></li>
-          <li><a href="#">Cookies e Biscoitos</a></li>
-          <li><a href="#">Bifinhos</a></li>
+          <li><a href="#">Todas as Promoções</a></li>
+          <li><a href="#">Promoção até R$ 20,00</a></li>
+          <li><a href="#">Promoção de R$ 20,00 até R$ 50,00</a></li>
           <li><a href="#">Ver todos+</a></li>
         </ul>
+       
+        <h3 class="text-roxo">CONSOLES</h3>
         <ul>
-          <li><a href="#">Roupas e Acessórios</a></li>
-          
-        </ul>
-        <ul>
-          <li><a href="#">Caminhas e Casinhas</a></li>
-          <li><a href="#">Caminhas</a></li>
-          
-        </ul>
-        <ul>
-          <li><a href="#">Acessórios para Alimentação</a></li>
-          <li><a href="#">Comedouro</a></li>
-          
-        </ul>
-        <h3 class="text-roxo">GATO</h3>
-        <ul>
-          <li><a href="#">Ração</a></li>
+          <li><a href="#">Xbox</a></li>
+          <li><a href="#">Playstation</a></li>
+          <li><a href="#">Nitendo</a></li>
           <li><a href="#">Ver todos+</a></li>
         </ul>
-        <ul>
-          <li><a href="#">Tocas e Caminhas</a></li>
-          <li><a href="#">Tocas</a></li>
-          <li><a href="#">Ver todos+</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Transporte</a></li>
-         
-          <li><a href="#">Ver todos+</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Arranhadores e brinquedos</a></li>
-          <li><a href="#">Ver todos+</a></li>
-        </ul>
-        <h3 class="text-roxo">ACESSÓRIOS</h3>
-        <ul>
-          <li><a href="#">Roupas e Coleiras</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Tocas e Caminhas</a></li>
-          
-        </ul>
-        <ul>
-          <li><a href="#">Comedouros e Bebedouros</a></li>
-          <li><a href="#">Potes</a></li>
-          
-        </ul>
-        <ul>
-          <li><a href="#">Brinquedos</a></li>
-          
-        </ul>
-        <h3 class="text-roxo">HIGIENE</h3>
-        <ul>
-          <li><a href="#">Banho</a></li>
-          
-        </ul>
-        <ul>
-          <li><a href="#">Limpeza</a></li>
-          <li><a href="#">Tapetes Higiênicos</a></li>
-          
-        </ul>
-        <h3 class="text-roxo mb-0">MEDICAMENTOS</h3>
+        
+        <h3 class="text-roxo">MOBILE</h3>
         <ul>
           <li><a href="#">Ver todos+</a></li>
+
+        </ul>
+        
+        <h3 class="text-roxo mb-0">ASSISTÊNCIA</h3>
+        <ul>
+          <li><a href="#">Encontre uma Assistência Perto de Você</a></li>
         </ul>
         <h3 class="text-roxo mb-0">OUTROS</h3>
         <ul>
@@ -128,13 +89,10 @@
         </ul>
         <button class="button-promo">PROMOÇÕES</button>
       </nav>
-      
-      <div>
-           
-             <div id="carrossel" class="banner-principal banner-imagem1"> </div>
 
+      <Div>
 
-
+        <div id="carrossel" class="banner-principal banner-imagem1"> </div>
 
         <div class="body-content">
           <div class="vantagens">
@@ -168,47 +126,47 @@
             </div>
           </div>
           <div class="cards mt-2">
-            <img class="img-card" src="">
-            <img class="img-card" src="">
-            <img class="img-card" src="">
+            <img class="img-card" src="../Egames/img/sessao/pc.jpg" title="Equipamentos e PCs">
+            <img class="img-card" src="../Egames/img/sessao/console.jpg" title="Consoles">
+            <img class="img-card" src="../Egames/img/sessao/mobile.png" title="Mobiles">
           </div>
-         
+
           <div class="produtos">
-          
-            <div class="font-5">Cachorro/Ração/Ração Seca</div>
-           
+
+            <div class="font-5">Games/Promoção</div>
+
             <div class="flex flex-center space-between">
-              <h1>CACHORRO</h1>
+              <h1>PROMOÇÃO</h1>
               <div class="font-6">Ordenar por: <span>RELEVÂNCIA</span></div>
             </div>
-            
+
             <div class="lista mt-2">
 
               <div class="card">
-                <img class="img-card" src="img/produto01.jpg">
-                <div class="font-6 mt-1">Ração Golden Special para cães Adultos Frango e Carne 15kg</div>
+                <img class="img-card" src="../Egames/img/Promocao/donkey.png">
+                <div class="font-6 mt-1">DONKEY KONG COUNTRY</div>
                 <div class="flex space-between mt-05">
-                  <span class="font-9-bold">R$ 135,90</span>
+                  <span class="font-9-bold">R$ 199,92</span>
                   <img class="img-coracao" src="../Egames/img/Icones_coracao.png">
                 </div>
-                <div class="font-6 mt-05">parcele em até 6x 22,65</div>
+                <div class="font-6 mt-05">parcele em até 6x 33,32</div>
                 <button class="button-comprar">COMPRAR AGORA</button>
               </div>
 
               <div class="card">
-                <img class="img-card" src="img/produto02.jpg">
-                <div class="font-6 mt-1">Ração Gran Plus Choice Frango e Carne Cães Adultos 15kg</div>
+                <img class="img-card" src="../Egames/img/Promocao/mario.tennis.aces.switch.png">
+                <div class="font-6 mt-1">MÁRIO TENNIS HERO</div>
                 <div class="flex space-between mt-05">
-                  <span class="font-9-bold">R$ 149,90</span>
+                  <span class="font-9-bold">R$ 199,92</span>
                   <img class="img-coracao" src="img/Icones_coracao.png">
                 </div>
-                <div class="font-6 mt-05">parcele em até 7x 21,41</div>
+                <div class="font-6 mt-05">parcele em até 6x 33,32</div>
                 <button class="button-comprar">COMPRAR AGORA</button>
               </div>
-              
+
               <div class="card">
-                <img class="img-card" src="img/produto03.jpg">
-                <div class="font-6 mt-1">Ração Premier Formula Cães Adultos Raças Médias Sabor...</div>
+                <img class="img-card" src="../Egames/img/Promocao/Super_Mario.jpg">
+                <div class="font-6 mt-1">SUPER MÁRIO.</div>
                 <div class="flex space-between mt-05">
                   <span class="font-9-bold">R$ 199,90</span>
                   <img class="img-coracao" src="img/Icones_coracao.png">
@@ -216,65 +174,65 @@
                 <div class="font-6 mt-05">parcele em até 9x 22,11</div>
                 <button class="button-comprar">COMPRAR AGORA</button>
               </div>
-             
+
               <div class="card">
-                <img class="img-card" src="img/produto04.jpg">
-                <div class="font-6 mt-1">Ração Golden Fórmula Sênior Raças Pequenas Frango e...</div>
+                <img class="img-card" src="./img/Promocao/battlefield2042.png">
+                <div class="font-6 mt-1">BATTLE FIELD 2042.</div>
                 <div class="flex space-between mt-05">
-                  <span class="font-9-bold">R$ 55,90</span>
+                  <span class="font-9-bold">R$ 144,90</span>
                   <img class="img-coracao" src="img/Icones_coracao.png">
                 </div>
-                <div class="font-6 mt-05">parcele em até 2x 27,95</div>
+                <div class="font-6 mt-05">parcele em até 2x 72,45</div>
                 <button class="button-comprar">COMPRAR AGORA</button>
               </div>
-            
+
             </div>
             <div class="lista mt-2">
               <div class="card">
-                <img class="img-card" src="img/produto05.jpg">
-                <div class="font-6 mt-1">Ração Premier Nattu Cães Adultos Abóbora Pequeno...</div>
+                <img class="img-card" src="../Egames/img/Promocao/unraveltwo.png">
+                <div class="font-6 mt-1">UNRAVEL TWO</div>
                 <div class="flex space-between mt-05">
-                  <span class="font-9-bold">R$ 40,90</span>
+                  <span class="font-9-bold">R$ 9,90</span>
                   <img class="img-coracao" src="img/Icones_coracao.png">
                 </div>
-                <div class="font-6 mt-05">parcele em até 2x 20,45</div>
+                <div class="font-6 mt-05">parcele em até 1x 9,90</div>
                 <button class="button-comprar">COMPRAR AGORA</button>
               </div>
-            
+
               <div class="card">
-                <img class="img-card" src="img/produto06.jpg">
-                <div class="font-6 mt-1">Ração Golden Fórmula para Cães Filhotes Carne e Arroz...</div>
+                <img class="img-card" src="../Egames/img/Promocao/anthem.jpg">
+                <div class="font-6 mt-1">ANTHEM.</div>
                 <div class="flex space-between mt-05">
-                  <span class="font-9-bold">R$ 47,90</span>
+                  <span class="font-9-bold">R$ 19,99</span>
                   <img class="img-coracao" src="img/Icones_coracao.png">
                 </div>
-                <div class="font-6 mt-05">parcele em até 2x 23,95</div>
+                <div class="font-6 mt-05">parcele em até 1x 19,99</div>
                 <button class="button-comprar">COMPRAR AGORA</button>
               </div>
-            
+
               <div class="card">
-                <img class="img-card" src="img/produto07.jpg">
-                <div class="font-6 mt-1">Ração Royal Canin Mini Indoor Adult Cães Pequenos 1kg</div>
+                <img class="img-card" src="../Egames/img/Promocao/dragonage.png">
+                <div class="font-6 mt-1">DRAGON AGE ORIGINS</div>
                 <div class="flex space-between mt-05">
-                  <span class="font-9-bold">R$ 47,90</span>
+                  <span class="font-9-bold">R$ 59,99</span>
                   <img class="img-coracao" src="img/Icones_coracao.png">
                 </div>
-                <div class="font-6 mt-05">parcele em até 2x 23,95</div>
+                <div class="font-6 mt-05">parcele em até 1x 59,99</div>
                 <button class="button-comprar">COMPRAR AGORA</button>
               </div>
-          
+
               <div class="card">
-                <img class="img-card" src="img/produto08.jpg">
-                <div class="font-6 mt-1">Ração para Cães Adultos Golden Seleção Natural Abób...</div>
+                <img class="img-card" src="../Egames/img/Promocao/simcity.png">
+                <div class="font-6 mt-1">CIM change_history</div>
                 <div class="flex space-between mt-05">
-                  <span class="font-9-bold">R$ 60,90</span>
+                  <span class="font-9-bold">R$ 23,90</span>
                   <img class="img-coracao" src="img/Icones_coracao.png">
                 </div>
-                <div class="font-6 mt-05">parcele em até 3x 20,30</div>
+                <div class="font-6 mt-05">parcele em até 1x 23,90</div>
                 <button class="button-comprar">COMPRAR AGORA</button>
               </div>
             </div>
-          
+
             <div class="mais-produtos">
               <button class="button-produto">MOSTRAR MAIS PRODUTOS</button>
               <div class="font-6">mostrando 16 de 260</div>
@@ -283,20 +241,20 @@
           </div>
         </div>
       </div>
-   
+
     </main>
-   
+
     <footer>
       <div class="flex flex-center space-between footer-top">
-        <img class="logo-vertical" src="img/logo_vertical.png">
+        <img class="logo-vertical" src="../Egames/img/logo_vertical.png">
         <div>
           <h3>Departamentos</h3>
-          <div class="font-7">Cachorro</div>
-          <div class="font-7">Gato</div>
+          <div class="font-7">PCs</div>
+          <div class="font-7">Consoles</div>
           <div class="font-7">Acessórios</div>
-          <div class="font-7">Higiene</div>
-          <div class="font-7">Medicamento</div>
-          <div class="font-7">Outros Pets</div>
+          <div class="font-7">Mobile</div>
+          <div class="font-7">Promoções</div>
+          <div class="font-7">Assistência</div>
         </div>
         <div>
           <h3>Precisa de Ajuda?</h3>
@@ -309,8 +267,8 @@
         </div>
         <div class="contato">
           <h3 class="mb-0">FALE COM A GENTE</h3>
-          <div class="mt-02">0800-678-9455</div>
-          <div class="mt-02 font-7">atendimento@petstore.com.br</div>
+          <div class="mt-02">0800-000-0000</div>
+          <div class="mt-02 font-7">atendimento@e-games.com.br</div>
           <div class="flex flex-center mt-1">
             <span>Siga nossas redes:</span>
             <span class="ml-1">
@@ -320,16 +278,17 @@
           </div>
         </div>
       </div>
+
       <div class="flex flex-center space-between footer-bottom ">
         <div>
-          <div class="font-5 ">2021 - PetStore Produtos para Petshop LTDA.</div>
-          <div class="font-5 ">Rodovia Régis Bitencourt, km 569, São Paulo, Registro, SP, CEP 98745-030</div>
-          <div class="font-5 ">CNPJ/MF 22.137.569/0789-41 IE 556.066.1096.000</div>
+          <div class="font-5 ">2022 - E-Games - Produtos Eletrônicos.</div>
+          <div class="font-5 ">Rua João Pessoa, km 549,Centro, Ribeirão, PE, CEP 55.520-000</div>
+          <div class="font-5 ">CNPJ/MF XX.XXX.XXX/XXXX-XX IE XXX.XXX</div>
         </div>
-        <img class="img-seguranca " src="../Egames/img/Icones_site seguro.png seguro.png ">
-      </div>
+        <img class="img-seguranca " src="../Egames/img/Icones_site seguro.png">
     </footer>
   </div>
 </body>
 <script src="../Egames/js/script.js"></script>
+
 </html>

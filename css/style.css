@@ -1,6 +1,12 @@
 /* -------- GLOBAL -------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     font-size: 1em;
     height: 100%;
     margin: 0;
@@ -95,7 +101,7 @@ header {
 .button-promo {
     font-weight: 600;
     color: white;
-    background-color: #00f5ff;
+    background-color: #021718;
     border: 0;
     border-radius: 5px;
     padding: 5% 15%;
@@ -119,11 +125,42 @@ main {
 }
 
 .banner-principal {
-    background-image: url(../img/carrossel/imagem-1.jpg);
-    height: 600px;
+
+    height:600px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.carrosel{
+    width: 400px;
+    height: 250px;
+    outline: 3px solid black;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 7);
+}
+
+.carrosel ul{
+    display: flex;
+    list-style: none;
+    width: 1200px;
+    height: 250px;
+}
+
+.carrosel li{
+    position: relative;
+    animation: slide 15s infinite ease-out;
+}
+
+@keyframes slide{
+    0%{left: 0px;}
+    20%{left: 0px;}
+    30%{left: -400px;}
+    50%{left: -400px;}
+    60%{left: -800px;}
+    90%{left: -800px;}
+    100%{left: 0%;}
 }
 
 .banner-imagem1 {
@@ -349,6 +386,7 @@ nav li:only-child a {
 
 .img-card {
     width: 30%;
+    height: 30%;
 }
 
 .img-product {
@@ -369,7 +407,7 @@ nav li:only-child a {
     }
 
     header {
-        background-color: #5c00b0;
+        background-color: black;
         padding: 15px;
         flex-direction: column;
         align-items: center;
